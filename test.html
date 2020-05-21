@@ -37,7 +37,7 @@
     </div>  <!--Блока шапки конец-->
             <!--Блока средний    -->
     <div  class="middle" style="background: rgba(243, 178, 58, 0.13); display:flex">
-      <div id="mi2" style="width:65%">
+      <div id="mi2" style="width:65%"><!--В этом блоке — пояснения и форма.-->
       <span id="mi1"    style="font-size:80%; color: #800000;"> 
         &#128161; Можно выбать один или несколько ответов. <br> 
         &#128161; Держите телефон горизонтально. <!--надо сверстать всё так, чтобы не приходилось держать телефон горизонтально :) Тем более, вдруг у меня ноутбук?..-->
@@ -48,8 +48,7 @@
       text-indent: 3%;">
           
           <div id="mi21" style="/*Этот блок — обёртка для группы чекбоксов с вариантами ответов.*/ 
-          /*width:75%;*/ padding-right:4%;          
-          /*background-image:linear-gradient(90deg, rgba(255, 255, 240, 0) 30%, rgba(255, 255, 220, 0.7) 80%)*/ ">
+          padding-right:4%;">
           
           <p><input type="checkbox" name="leo_ch[0]" value="Leo" /><span>В размере месячного оклада представителя среднего класса</span></p>
           <p><input type="checkbox" name="leo_ch[1]" value="Leo" /><span>В размере официального прожиточного минимума</span></p>
@@ -72,7 +71,8 @@
         </form>
       </div>
       <div style="width:35%; display:flex; align-items:center; /*простой способ разместить видео по центру*/padding:2em;">
-         <video  style="width:100%; box-shadow:-0.2em 0.2em 4em #222211; background-image:url('https://archive.org/download/WebmVp8Vorbis/webmvp8.gif'); background-size:cover/*гифка по размеру неточно соответствует видео, поэтому лучше сделать её фоном для видео.*/" controls autoplay poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif" >
+        <!--В этом блоке видео.-->
+         <video  style="width:100%; box-shadow:-0.2em 0.2em 4em #222211;/* можно немного оживить, сделав тень.*/ background-image:url('https://archive.org/download/WebmVp8Vorbis/webmvp8.gif'); background-size:cover/*гифка по размеру неточно соответствует видео, поэтому лучше сделать её фоном для видео.*/" controls autoplay poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif" >
            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
            <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
